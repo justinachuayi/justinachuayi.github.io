@@ -1,4 +1,37 @@
-
+<style>
+    h1{
+        color:purple
+    }
+    p{
+        color:royalblue
+    }
+</style>
 <h1> Justina </h1>
 <img src = 'photo.jpeg' width = "600" height = "400">
 <p> I am a Year 2 Information Systems student </p>
+
+<table border = "1">
+    <tr>
+        <td>Name</td>
+        <td><input type = "text" name = ></td>
+    </tr>
+    <tr>
+        <td>Relationship Status</td>
+        <td><input type = "radio" name = "status" value = "single"> Single
+        <input type = "radio" name = "status" value = "taken"/> Taken</td>
+    </tr>
+
+    <tr>
+        <td>Favourite Fruit</td>
+        <td>
+            <input type = "checkbox" name = "fruit[]" value = "apple"> Apple
+        <input type = "checkbox" name = "fruit[]" value = "watermelon">Watermelon
+        <input type = "checkbox" name = "fruit[]" value = "mango">Mango
+        <input type = "checkbox" name = "fruit[]" value = "grape"> Grape
+    </td>
+    </tr>
+
+    <tr>
+        <td><input type = "submit" value = "Submit"></td>
+    </tr>
+</table>
