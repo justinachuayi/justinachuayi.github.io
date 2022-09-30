@@ -4,6 +4,17 @@ body{
     background-repeat: no-repeat;
     text-align: center;
 }
+
+.text-slider-items{
+    display: none
+}
+
+.text-slider{
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500
+}
+
 h1{
     color:purple;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
