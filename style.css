@@ -1,0 +1,17 @@
+body{
+    background: url(backgroundpic.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+h1{
+    color:purple;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    color:royalblue
+}
+table{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
