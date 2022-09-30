@@ -5,19 +5,30 @@ body{
     text-align: center;
 }
 
-.text-slider-items{
-    display: none
+.typed-out{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 100;
+    overflow: hidden;
+    border-right: black .15em solid;
+    white-space: nowrap;
+    font-size: 2.5vw;
+    width: 0;
+    animation:
+        typing 1s steps(30, end) forwards,
+        blink .8s infinite;
+    animation-delay: 1.2s;
+    margin-top: 10px;
 }
 
-.text-slider{
-    font-size: 30px;
-    font-family:'Times New Roman', Times, serif;
-    font-weight: 500
+.typed-out-container {
+    display: inline-block;
+    margin-top: 10px;
 }
 
 h1{
     color:purple;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+ 
 }
 p{
     color:royalblue
