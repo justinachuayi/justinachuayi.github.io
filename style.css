@@ -25,6 +25,27 @@ body{
     margin-top: 10px;
 }
 
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink {
+    from {
+        border-color: transparent
+    }
+
+    to {
+        border-color: black
+    }
+}
+
+
 h1{
     color:purple;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
