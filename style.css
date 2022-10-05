@@ -101,7 +101,8 @@ a{
     margin-top: 10px;
 }
 
-#id{
-    width: 100%;
-    height: auto;
+#photo{
+    width: 400px;
+    height: 300px;
+    
 }
