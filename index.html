@@ -42,9 +42,12 @@
       </nav>
 
     <div class="home" style="text-align:center" id = "home">
-        <h1 class="header text-center">Hi, I'm Justina</h1>
+        <!-- <h1 class="header text-center">Hi, I'm Justina</h1> -->
         <div class="typed-out-container">
-            <h2 class="typed-out">A Y2 Information Systems Student</h2>
+            <h1 class="header text-center">
+                <span class ="text-slider-items">Hi I'm Justina, A Y2 Information Systems Student</span>
+                <strong class = "text-slider"></strong>
+            </h1>
         </div>
     </div>
 
@@ -110,5 +113,18 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
     crossorigin="anonymous"></script>
+    <script>
+        if ($(".text-slider").length == 1) { 
+            var typed_strings = $(".text-slider-items").text(); 
+            var typed = new Typed(".text-slider", { 
+                strings: typed_strings.split(", "), 
+                typeSpeed: 50, 
+                loop: true, 
+                backDelay: 900, 
+                backSpeed: 30, 
+            }); 
+        } 
+        
+    </script> 
 
 </html>

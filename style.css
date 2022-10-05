@@ -34,7 +34,7 @@ body{
     margin-top: 10px;
 }
 
-.typed-out-container {
+/* .typed-out-container {
     display: inline-block;
     margin-top: 10px;
 }
@@ -57,7 +57,7 @@ body{
     to {
         border-color: black
     }
-}
+} */
 
 
 .glass-card {
@@ -90,3 +90,9 @@ table{
 a{
     text-decoration: none !important;
 }
+
+.text-slider-items { 
+
+    display: none;
+
+} 
