@@ -78,7 +78,8 @@ body{
  
 }
 p{
-    color:royalblue
+    color:royalblue;
+    text-align: center
 }
 /*
 table{
